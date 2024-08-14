@@ -1,0 +1,23 @@
+# Priya FirstLearning excercise Practicals.
+-> This is my platform where i started learning git practically. I hope this could work better in my field.
+->I have learned how to clone the project and how to create a new working directory using git command.
+# for example:
+$mkdir Projectname (To create a folder in working directory)
+$ git --version( to check the version)
+$ git status
+$ git clone
+$ ls (to list the new changes/files which we are created.) 
+# staging: (updating)
+# Staging is a process where we need to add the changed files to be tracked. It means The file should be added to the git repository for staging( to be Tracked). Untracked is the file which we have made changes but still it is not staged to Git repo.
+# To add the single we use the command follows
+$ git add filename
+# To add multiple file we nuse the command follows:
+$ git add --all/git add --a
+#Commit is the process where we are going to save changes as save point. After commiting there may be possibilities that developers can view and find bugs in code. So that we may get a chance to rework on our changes to make it perfect. before that we need to add message for every commit.
+$ git commit -m "First Practical Project of GIT"
+$ git commit 
+#In some cases we may get some thoughts to commit directly instead of staging. In Such case, we need to use the command
+$ git status --short(to chcek the status) so then we can use
+$ git commit -a -m "Message you need to update"
+
+
