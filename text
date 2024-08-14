@@ -20,6 +20,9 @@ $ git commit
 $ git status --short(to chcek the status) so then we can use
 $ git commit -a -m "Message you need to update"
 # to view the history of commits which we have made, we can check by using the command
-$ git log 
+$ git log
+# If we have any doubts and we need any commands which we need to be memorised we can use this command 
+$ git command -help (for particular commands)
+$ git help --all(to get all commands)
 
 
