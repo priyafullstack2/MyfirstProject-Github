@@ -19,5 +19,7 @@ $ git commit
 #In some cases we may get some thoughts to commit directly instead of staging. In Such case, we need to use the command
 $ git status --short(to chcek the status) so then we can use
 $ git commit -a -m "Message you need to update"
+# to view the history of commits which we have made, we can check by using the command
+$ git log 
 
 
