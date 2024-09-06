@@ -104,3 +104,7 @@ $ git submodule               Initialize, update or inspect submodules
 $ git switch                  Switch branches
 $ git tag                     Create, list, delete or verify a tag object signed with GPG
 4 git worktree                Manage multiple working trees
+
+$ git pull : It is combination of fetch and merge. It is used to pull the changes from the remote repository to the local repository.
+$ git merge: It is used to merge the changes in current branch to the specified branch.
+$ git fetch: It is used to fetch the changes that has been made. It is used to fetch the history of the changes.
