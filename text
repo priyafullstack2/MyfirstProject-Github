@@ -24,5 +24,7 @@ $ git log
 # If we have any doubts and we need any commands which we need to be memorised we can use this command 
 $ git command -help (for particular commands)
 $ git help --all(to get all commands)
+$ git push --set-upstream origin master
+It is used to push the code from the local repository to the remote repository.
 
 
