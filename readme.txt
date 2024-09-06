@@ -22,6 +22,8 @@ $ git archive --format=zip -o branch.zip <branch-name>
 $ git archive --format=zip -o subset.zip HEAD path/to/file1 path/to/dir1
 # If we need to archive main branch into the main.zio files
 $ git archive --format=zip -o main.zip main
+$ git push --set-upstream origin master
+It is used to push the code from local repository to the remote repository
 
 $ git bisect                  Use binary search to find the commit that introduced a bug
 # It is command used to search a bug within the commits that we made. It is used to find
